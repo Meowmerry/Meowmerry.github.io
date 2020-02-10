@@ -1,0 +1,244 @@
+body {
+  border: 20px solid #faa938;
+  margin: 0;
+  font-family: libre baskerville, Georgia, serif;
+}
+@media only screen and (max-width: 650px) {
+  h1,
+  h2 {
+    font-size: 12px;
+    line-height: 1em;
+  }
+  .section2 {
+    width: 90%;
+  }
+  .section2 img {
+    width: 80%;
+    height: 100%;
+  }
+  .section3 {
+    width: 90%;
+  }
+
+  .section3 img {
+    width: 80%;
+    height: 100%;
+  }
+  .section-profile iframe {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: table-cell;
+  position: relative;
+  padding: 10px 0;
+}
+
+.select {
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 5px 5px 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px;
+}
+h1,
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+a {
+  color: #020202;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 15px;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #ff9400;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.nav-img img {
+  width: 100%;
+  height: 200px;
+}
+.hero {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.section1 {
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section2 {
+  margin: auto;
+  text-align: center;
+  max-width: 50em;
+}
+.section2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 60px 10px 60px;
+  margin-bottom: 2em;
+}
+.section3 {
+  margin: auto;
+  text-align: center;
+  max-width: 50em;
+}
+.section3 img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2em;
+  background-color: #f0eeee;
+  border-radius: 60px 10px 60px 10px;
+}
+
+/* Profile */
+.section-profile {
+  margin: auto;
+  text-align: center;
+  max-width: 40em;
+  margin-bottom: 2em;
+}
+.section-profile img {
+  width: 90%;
+  height: 90%;
+  margin-bottom: 2em;
+  background-color: #f0eeee;
+  border-radius: 10px;
+}
+.section-profile iframe {
+  margin-bottom: 2em;
+  border-radius: 10px;
+  width: 90%;
+  height: 350px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 5em;
+  padding-right: 5em;
+  max-width: 50em;
+  margin: auto;
+}
+h5 {
+  font-size: 1.5em;
+  color: rgb(5, 5, 170);
+}
+p {
+  font-size: 1em;
+  line-height: 2em;
+  margin-bottom: 1.5em;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* Friend section */
+.div1 {
+  justify-content: center;
+  display: flex;
+  margin: 15px;
+}
+
+.div1 button {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(160, 217, 221);
+  border-right: 2px solid rgb(97, 91, 97);
+  border-left: 2px solid plum;
+  box-shadow: 2px #573d4f;
+  font-size: 2em;
+  background-color: black;
+}
+.div1 button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.section-friend {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  margin: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+th {
+  background-color: pink;
+}
+.thTable {
+  background-color: rgb(204, 204, 204);
+}
+.thTable:hover {
+  background-color: rgb(228, 200, 231);
+  cursor: pointer;
+}
+.img-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
