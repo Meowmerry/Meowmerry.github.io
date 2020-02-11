@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+body {
+    font-family: montserrat,sans-serif;
+    color: #636363;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bg-form {
+    background-color: rgb(213, 224, 224);
+    padding: 2% 5% 5% 5%;
+    position: relative;
+    bottom: 100px;
+    width: 50%;
+    border-radius: 2%; 
+}
+.size-area{
+    height: 400px;
+}
+.button-bg {
+    margin: 5%;
+}
+.button-sz {
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(255, 1, 1);
+}
