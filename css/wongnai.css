@@ -97,12 +97,11 @@ img {
   background-color: honeydew;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding: 10px;
+  /* padding: 10px; */
 }
-.titel> {
+.titel {
   display: grid;
   grid-template-columns: auto auto auto auto;
-
   padding: 10px;
 }
 
@@ -113,7 +112,3 @@ img {
     height: 200px;
 }
 
-.photo {
-  width: 60%;
-  height: 60%;
-}
