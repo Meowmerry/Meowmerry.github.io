@@ -1,13 +1,14 @@
 body {
-  margin: 0;
+  margin: auto;
 }
 
 body {
   font-family: montserrat, sans-serif;
   color: #636363;
-  font-size: 16px;
   font-weight: 400;
 }
+
+/* section header */
 header {
   position: fixed !important;
   top: 25px;
@@ -27,42 +28,183 @@ header {
   background: #e27d23;
   color: #fff;
 }
-@media only screen and (max-width: 300px) and (max-width: 700px){
+@media only screen and (max-width: 300px) and (max-width: 700px) {
   .text-contact > div {
     margin-top: 10%;
     font-size: 10px;
   }
-  
 }
 
-.text-contact > div{
-  margin-top: 10%;
+header {
+  position: fixed !important;
+  top: 25px;
+  width: 100%;
+  z-index: 9999;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+@media only screen and (max-width: 1000px) {
+  header {
+    top: 0 !important;
+    margin-top: 0 !important;
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header_inner_left,
+  footer.uncover,
+  header {
+    position: relative !important;
+    left: 0 !important;
+    margin-bottom: 0;
+  }
+}
+header {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 110;
+}
+header .header__open {
+  align-items: flex-start;
+  text-align: center;
+}
+
+.grid__row {
+  align-items: center;
+  display: flex;
+}
+
+header .header__logotype {
+  opacity: 0;
+  padding-left: 5px;
+  text-align: left;
+  -webkit-transform: translateX(-50px);
+  transform: translateX(-50px);
+}
+
+@media only screen and (min-width: 787px) {
+  .only-smartphone,
+  .page--careers .summary__ethos-label::after {
+    display: none !important;
+  }
+}
+.grid__push-1 {
+  margin-left: 4.1666666667%;
+}
+.grid__col-23 {
+  flex: 0 0 95.8333333333%;
+}
+header .header__open--text {
+  border-top: 1px solid #979797;
+  cursor: pointer;
+  display: inline-block;
+  padding-top: 8px;
+  position: relative;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: color 0.6s, -webkit-transform 0.2s ease-in-out;
+  transition: color 0.6s, transform 0.2s ease-in-out;
+  transition: color 0.6s, transform 0.2s ease-in-out,
+    -webkit-transform 0.2s ease-in-out;
+}
+.t-meta-small,
+.t-services-label,
+.page--about .team .person__details-title {
+  font-family: "Fakt Medium", Helvetica, Arial, sans-serif;
+  font-size: 0.6vw;
+  letter-spacing: 1.62px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+header .header__open {
+  text-align: right;
+}
+header .header__open--text::before {
+  background-color: #fc5424;
+  content: "";
+  display: block;
+  height: 35px;
+  position: absolute;
+  top: -36px;
+  transition: background-color 0.6s;
+  width: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+header .header__open--text::after {
+  background-color: #fff;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 12.5%;
+  position: absolute;
+  top: -7px;
+  transition: background-color 0.6s;
+  width: 75%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+::selection {
+  background: #fc5424;
+}
+
+::selection {
+  background: #e27d23;
+  color: #fff;
+}
+
+.text-contact > div {
+  margin-top: 5%;
   font-size: 50px;
   font-weight: bold;
 }
 
 .bg-form {
-  background-color: rgb(213, 224, 224);
-  /* padding: 2% 2% 2% 2%; */
+  background-color: rgb(244, 250, 248);
   position: relative;
   bottom: 100px;
   width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(189, 185, 185), 0 0 25px rgb(216, 245, 245),
+    0 0 5px rgb(94, 173, 136);
 }
 .content {
-    padding: 2% 0% 2% 0%;
-    position: relative;
-    width: 80%;
-  }
-
+  padding: 2% 0% 2% 0%;
+  position: relative;
+  width: 80%;
+}
 
 .button-bg {
   margin: 5%;
   display: flex;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
 }
 .button-sz {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -74,26 +216,38 @@ button:hover {
   color: rgb(255, 1, 1);
 }
 .card-size {
-    height: 200%;
-    width: 100%;
+  height: 200%;
+  width: 100%;
 }
 .texth1 {
-    font-size: 50px;
-    line-height: 1.3em;
-    font-weight: 700;
-    color: rgb(233, 17, 38);
-    text-transform: none;
-    text-align: left;
+  font-size: 40px;
+  line-height: 1.3em;
+  font-weight: 700;
+  color: rgb(233, 17, 38);
+  text-transform: none;
+  text-align: left;
 }
 .row-content {
   width: 80%;
   margin-top: 20px;
-
 }
 .section-video {
- background-image: url(https://www.pimclick.com/wp-content/uploads/2018/11/mobile.png);
- width: 100%;
- height: 100%;
- margin-top: 20px;
- margin-bottom: 20px;
+  background-image: url(https://www.pimclick.com/wp-content/uploads/2018/11/mobile.png);
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+label {
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+input {
+  border: 1px solid rgb(232, 233, 231) !important;
+  border-radius: 2px;
+  width: 100%;
+}
+
+
