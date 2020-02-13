@@ -190,7 +190,7 @@ header .header__open--text::after {
 .bg-form {
   background-color: rgb(244, 250, 248);
   position: relative;
-  bottom: 100px;
+  bottom: 70px;
   width: 60%;
   height: 80%;
   border-radius: 10px;
