@@ -28,17 +28,13 @@ header {
   background: #e27d23;
   color: #fff;
 }
-@media only screen and (max-width: 300px) and (max-width: 700px) {
-  .text-contact > div {
-    margin-top: 10%;
-    font-size: 10px;
+@media only screen and (max-width: 140px) and (max-width: 720px) {
+  .text-contact > div > span {
+    margin-top: 2%;
+    font-size: 12px;
+    font-weight: bold;
   }
-  input {
-    border: 1px solid rgb(232, 233, 231) !important;
-    border-radius: 2px;
-    width: 50% !important;
-  }
-  
+
 }
 
 header {
@@ -188,9 +184,10 @@ header .header__open--text::after {
 }
 
 .bg-form {
-  background-color: rgb(244, 250, 248);
+  background-color: rgb(252, 252, 252);
   position: relative;
   bottom: 70px;
+  /* padding: 1% 5% 1% 5%; */
   width: 60%;
   height: 80%;
   border-radius: 10px;
@@ -255,6 +252,7 @@ input {
   border: 1px solid rgb(232, 233, 231) !important;
   border-radius: 2px;
   width: 100% !important;
+  /* padding: 0px 2px 0px 2px; */
 }
 
 .form-control {
@@ -265,7 +263,7 @@ input {
   font-weight: 400;
   line-height: 1.5;
   color: #434b52;
-  background-color: rgb(219, 248, 243);
+  background-color: rgb(228, 247, 243);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: .30rem;
@@ -278,3 +276,11 @@ input {
   
 
 }
+
+/* .row-form {
+  justify-content: space-around;
+} */
+
+/* .row-form > .col-10 {
+  padding: 0;
+} */
